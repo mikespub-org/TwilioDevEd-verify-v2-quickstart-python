@@ -28,7 +28,7 @@
   window.intlTelInput(input, {
     hiddenInput: "full_phone",
     preferredCountries: ["us", "gb", "co", "de"],
-    utilsScript: "{{ url_for('static',filename='js/utils.js') }}"
+    utilsScript: "/test{{ url_for('static',filename='js/utils.js') }}"
   });
 </script>
 {% endblock %}
