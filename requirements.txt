@@ -1,4 +1,4 @@
 flask==2.0.2
 python-dotenv==0.19.2
-twilio==7.3.1
+twilio==7.5.0
 pytest==6.2.5
