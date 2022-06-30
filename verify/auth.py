@@ -36,9 +36,9 @@ def login_required(view):
     return wrapped_view
 
 
-def start_verification(to, channel="sms"):
-    if channel not in ("sms", "call"):
-        channel = "sms"
+def start_verification(to, channel='sms'):
+    if channel not in ('sms', 'call', 'whatsapp'):
+        channel = 'sms'
 
     service = app.config.get("VERIFICATION_SID")
 
