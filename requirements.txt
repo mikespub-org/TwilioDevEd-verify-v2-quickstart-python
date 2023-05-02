@@ -1,4 +1,4 @@
-flask==2.2.3
+flask==2.3.2
 python-dotenv==1.0.0
 twilio==7.16.5
 pytest==7.2.2
