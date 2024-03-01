@@ -1,4 +1,4 @@
-flask==3.0.0
-python-dotenv==1.0.0
-twilio==8.10.2
-pytest==7.4.3
+flask==3.0.2
+python-dotenv==1.0.1
+twilio==9.0.0
+pytest==8.0.2
